@@ -1,0 +1,101 @@
+/* NavLink */
+.active {
+    text-decoration: none;
+    color: orange;
+    
+}
+
+.inactive{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navbar */
+
+.caja{
+    display: flex;
+}
+.navbar{
+   background-color: green; 
+}
+
+.navContent{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+}
+
+
+.navbar-brand{
+    width: 42px;
+    height: 42px;
+}
+
+.navbar a{
+    margin: 0 1rem;
+}
+
+.links{
+    display: flex;
+}
+
+h1{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+/* home */
+.pikachu-home{
+    width: 35%;
+    margin: 1rem 0;
+}
+
+/* pokemones */
+.list{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin: 0 0 0 1rem;
+}
+
+li{
+    width: 100%;
+}
+
+button{
+    margin: 1rem 0;
+}
+
+.img-poke{
+    padding: 1rem 2.5rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.type-p{
+    margin: 1rem 0;
+    color: #646974;
+}
+
+.form-select{
+    width: 20%;
+    margin: 1rem 0 0 0;
+}
+
+
+
+
+
